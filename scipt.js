@@ -5,7 +5,7 @@ canvas.width = 1024
 canvas.height = 576
 
 
-c.fillRect(0, 0, canvas.width, canvas.height)
+// c.fillRect(0, 0, canvas.width, canvas.height)
 
 
 const gravity = 0.2
@@ -14,7 +14,7 @@ class Sprite {
   constructor({position, velocity}) {
     this.position = position
     this.velocity = velocity
-    this.height = 150
+    this.height = 100
   }
 
   draw() {
